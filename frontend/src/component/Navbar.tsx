@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import {FaHashnode} from 'react-icons/fa6'
+import {FaHashnode,FaGlobe} from 'react-icons/fa6'
 
 const Navbar = () => {
   return (
@@ -14,7 +14,7 @@ const Navbar = () => {
       {/* Navigation Links */}
       <div className="flex space-x-4">
         <a
-          href="https://www.linkedin.com"
+          href="https://www.linkedin.com/in/sachin-borse/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-500"
@@ -22,7 +22,7 @@ const Navbar = () => {
           <FaLinkedin size={24} />
         </a>
         <a
-          href="https://hashnode.com"
+          href="https://sachinborse.hashnode.dev/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-700"
@@ -30,12 +30,21 @@ const Navbar = () => {
           <FaHashnode size={24} />
         </a>
         <a
-          href="https://github.com"
+          href="https://github.com/devsachinborse"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-gray-600"
         >
           <FaGithub size={24} />
+        </a>
+
+        <a
+          href="https://devsachinborse.github.io/portfolio-website/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-gray-600"
+        >
+          <FaGlobe size={24} />
         </a>
       </div>
     </nav>
