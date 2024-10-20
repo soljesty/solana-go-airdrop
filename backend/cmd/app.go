@@ -9,6 +9,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
+// server struct
 type APIServer struct {
 	listenAddr string
 }
